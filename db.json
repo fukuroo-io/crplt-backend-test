@@ -1,11 +1,293 @@
 {
-  "posts": [
+  "onboarding": {
+    "steps": 4,
+    "pages": [
+      {
+        "image": "https://image/url.jpg",
+        "text": "Sint ullamco laborum reprehenderit anim. Aliqua voluptate sunt proident ipsum. Eiusmod occaecat deserunt incididunt enim commodo quis id ea nostrud aliqua anim. Enim sint proident laborum cupidatat qui ipsum.",
+        "buttons": {
+          "next": {
+            "color": "color",
+            "text": "text"
+          },
+          "prev": null
+        }
+      },
+      {
+        "image": "https://image/url.jpg",
+        "text": "Sint ullamco laborum reprehenderit anim. Aliqua voluptate sunt proident ipsum. Eiusmod occaecat deserunt incididunt enim commodo quis id ea nostrud aliqua anim. Enim sint proident laborum cupidatat qui ipsum.",
+        "buttons": {
+          "next": {
+            "color": "color",
+            "text": "text"
+          },
+          "prev": {
+            "color": "color",
+            "text": "text"
+          }
+        }
+      },
+      {
+        "image": "https://image/url.jpg",
+        "text": "Sint ullamco laborum reprehenderit anim. Aliqua voluptate sunt proident ipsum. Eiusmod occaecat deserunt incididunt enim commodo quis id ea nostrud aliqua anim. Enim sint proident laborum cupidatat qui ipsum.",
+        "buttons": {
+          "next": {
+            "color": "color",
+            "text": "text"
+          },
+          "prev": {
+            "color": "color",
+            "text": "text"
+          }
+        }
+      },
+      {
+        "image": "https://image/url.jpg",
+        "text": "Sint ullamco laborum reprehenderit anim. Aliqua voluptate sunt proident ipsum. Eiusmod occaecat deserunt incididunt enim commodo quis id ea nostrud aliqua anim. Enim sint proident laborum cupidatat qui ipsum.",
+        "buttons": {
+          "next": {
+            "color": "color",
+            "text": "text"
+          },
+          "prev": {
+            "color": "color",
+            "text": "text"
+          }
+        }
+      }
+    ]
+  },
+  "farms": [
     {
-      "id": 1,
-      "title": "hello"
+      "id": "64bd4f13-c74e-4a5e-9721-2d383354134e",
+      "name": "La blanca",
+      "accountId": "568ca4dc-f0a0-424d-a2c2-1848aebd5a64"
     }
   ],
+  "fields": [
+    {
+      "id": "6cebc412-8b46-4b53-8f52-0de63f6f6e2e",
+      "name": "Lote galpon",
+      "farmId": "64bd4f13-c74e-4a5e-9721-2d383354134e",
+      "irrigated": false,
+      "tillageSystem": "conventional", // conventional | stripes | directSeeding
+      "limitPoints": [
+        [
+          1.2,
+          1,
+          3
+        ],
+        [
+          2.4,
+          2.5
+        ]
+      ],
+      "area": "57 Ha",
+      "cropId": "06e8659b-fb17-47f8-abd8-8d915fa2be57",
+      "cropVariety": "soybeans variety",
+      "sowingDate": "2025-02-17T13:41:13.534Z",
+      "cropDate": 4, // 4, 5, 6, 7, 0 (other)
+      "cropDetails": {
+        "scenarioId": "cc98d6c7-7956-489a-b9d1-ce88ef36a8a7",
+        "currentProbability": 76,
+        "weekVariation": 1,
+        "phase": "v15",
+        "gdu": 1.287,
+        "ndvi": {
+          "base": [
+            {
+              "date": "'2025-02-05T15:51:01.466Z'",
+              "image": "https://picsum.photos/seed/AtwCvY1nr5/225/1806"
+            }
+          ],
+          "contrast": [
+            {
+              "date": "'2025-02-05T15:51:01.466Z'",
+              "image": "https://picsum.photos/seed/AtwCvY1nr5/225/1806"
+            }
+          ],
+          "average": [
+            {
+              "date": "'2025-02-05T15:51:01.466Z'",
+              "image": "https://picsum.photos/seed/AtwCvY1nr5/225/1806"
+            }
+          ]
+        }
+      },
+      "history": {
+        "similarCampaign": {
+          "date": "2022-08-21T22:33:32.273Z",
+          "cropId": "9144476b-c4f1-4c16-b101-2ab830c8f87e",
+          "year": 2022,
+          "quantity": "12,1 Tn/Ha"
+        },
+        "betterCampaign": {
+          "date": "2023-02-27T21:52:01.559Z",
+          "cropId": "9144476b-c4f1-4c16-b101-2ab830c8f87e",
+          "year": 2023,
+          "quantity": "13,4 Tn/Ha"
+        },
+        "crops": [
+          {
+            "cropId": "06e8659b-fb17-47f8-abd8-8d915fa2be57",
+            "year": 2024,
+            "quantity": "11,2 Tn/Ha"
+          },
+          {
+            "cropId": "9144476b-c4f1-4c16-b101-2ab830c8f87e",
+            "year": 2023,
+            "quantity": "13,4 Tn/Ha"
+          },
+          {
+            "cropId": "9144476b-c4f1-4c16-b101-2ab830c8f87e",
+            "year": 2022,
+            "quantity": "12,1 Tn/Ha"
+          }
+        ]
+      }
+    }
+  ],
+  "yield": {
+    "fieldId": "6cebc412-8b46-4b53-8f52-0de63f6f6e2e",
+    "cropId": "2d5e0c9c-ced0-4750-a881-4c0e8dc22abc",
+    "variety": "deorsum arceo comprehendo",
+    "yieldQuantity": "12,4 Tn/Ha",
+    "year": "2021"
+  },
+  "scenarios": [
+    {
+      "id": "7ff6d123-7089-439d-8765-075b009860a6",
+      "name": "conservador"
+    },
+    {
+      "id": "cc98d6c7-7956-489a-b9d1-ce88ef36a8a7",
+      "name": "moderado"
+    },
+    {
+      "id": "3de59997-e414-436b-9286-c6a3da5bb7a4",
+      "name": "optimista"
+    }
+  ],
+  "activeCrops": [
+    {
+      "cropId": "06e8659b-fb17-47f8-abd8-8d915fa2be57",
+      "fieldId": "6cebc412-8b46-4b53-8f52-0de63f6f6e2e",
+      "weekVariation": "1", // always % can be negative -1
+      "index": "95", // always %
+      "yield": [
+        12,
+        12.6
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": "24c53f2d-3720-42e1-b624-830f4a48c474",
+      "label": "Temperaturas extremas",
+      "description": "Se esperan temperaturas de más de 38°C en 3 días en lotes de los campos La blanca y El ceibo.",
+      "starts": "2025-02-20T06:02:34.052Z",
+      "duration": "4d",
+      "value": "44",
+      "affectedCrops": [
+        "6cebc412-8b46-4b53-8f52-0de63f6f6e2e"
+      ],
+      "active": true,
+      "severity": "advertencia" // critica | importante | advertencia | informativa | cancelada
+    }
+  ],
+  "notifications-config": {
+    "frost": false,
+    "heavyRains": false,
+    "extremeTemperature": true,
+    "strongWinds": false,
+    "sowingDate": false,
+    "cropDate": true,
+    "yieldChanges": true,
+    "allowPushNotifications": true
+  },
+  "rains": [
+    {
+      "id": "65dfff7e-2cc0-4a12-bf1e-410638009dcd",
+      "fieldId": "6cebc412-8b46-4b53-8f52-0de63f6f6e2e",
+      "datetime": "2025-02-19T05:11:53.885Z",
+      "quantity": "25mm"
+    }
+  ],
+  "contact-us": [
+    {
+      "email": "Zella65@yahoo.com",
+      "comment": "Surgo sumptus tredecim vacuus subvenio celer vicissitudo pectus ex. Bos saepe commodo peccatus stillicidium cura adflicto. Minus aufero molestiae textor vito vis contabesco corpus compono attollo.\nAspicio asper uter vilitas quidem. Dicta tondeo quam incidunt anser. Comitatus coepi ago torrens fugiat somnus vestrum.\nAntepono rerum arceo aureus. Cui veniam calamitas nihil. Pax depulso ater appono illo caveo colligo astrum."
+    }
+  ],
+  "info": {
+    "activeCrops": "Vapulus curso circumvenio surculus. Voluptates cinis substantia creta minima decet curo angelus vomica."
+  },
+  "crops": [
+    {
+      "id": "9144476b-c4f1-4c16-b101-2ab830c8f87e",
+      "name": "maiz"
+    },
+    {
+      "id": "06e8659b-fb17-47f8-abd8-8d915fa2be57",
+      "name": "soja"
+    },
+    {
+      "id": "2d5e0c9c-ced0-4750-a881-4c0e8dc22abc",
+      "name": "mani"
+    },
+    {
+      "id": "cebecc8d-f736-465f-a0a4-9cd81623d333",
+      "name": "girasol"
+    },
+    {
+      "id": "0a8d8d30-b515-4679-ac1c-df0cbdf0122b",
+      "name": "olivo"
+    },
+    {
+      "id": "def77a8f-8e67-4a18-8f5d-80a38f083422",
+      "name": "trigo"
+    }
+  ],
+  "positions": [
+    {
+      "id": "37e9796c-0d09-4dfa-b1a1-c306ee18e258",
+      "name": "productor"
+    },
+    {
+      "id": "6c150cef-b4ae-4347-bdfb-6391e8a42b61",
+      "name": "ingeniero"
+    },
+    {
+      "id": "baaf5c9e-9657-47f3-aea8-17864f130a5c",
+      "name": "dueño"
+    },
+    {
+      "id": "411dd6e4-5b82-4758-a3af-552d8a1a5395",
+      "name": "encargado"
+    },
+    {
+      "id": "2ace5c32-57c9-4ff3-877a-418fdfddb916",
+      "name": "tecnico"
+    }
+  ],
+  "ia": {
+    "status": "processing", // ready
+    "label": "Series climáticas" // Cultivos anteriores | etc
+  },
   "profile": {
-    "name": "typicode"
+    "id": "10b8df15-77f2-4e6f-a02d-ec9f72e3f568",
+    "firstName": "Carlos Daniel",
+    "lastName": "Hoffmann",
+    "image": "https: //cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/10.jpg",
+    "email": "Carlos_Hoffmann89@hotmail.com",
+    "cellphone": "(663) 730-7383",
+    "positionId": "baaf5c9e-9657-47f3-aea8-17864f130a5c",
+    "accountId": "568ca4dc-f0a0-424d-a2c2-1848aebd5a64"
+  },
+  "account": {
+    "id": "568ca4dc-f0a0-424d-a2c2-1848aebd5a64",
+    "email": "Carlos_Hoffmann89@hotmail.com",
+    "cellphone": "(663) 730-7383",
+    "owner": true
   }
 }

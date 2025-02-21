@@ -70,7 +70,7 @@
       "name": "Lote galpon",
       "farmId": "64bd4f13-c74e-4a5e-9721-2d383354134e",
       "irrigated": false,
-      "tillageSystem": "conventional", // conventional | stripes | directSeeding
+      "tillageSystem": "conventional",
       "limitPoints": [
         [
           1.2,
@@ -86,7 +86,7 @@
       "cropId": "06e8659b-fb17-47f8-abd8-8d915fa2be57",
       "cropVariety": "soybeans variety",
       "sowingDate": "2025-02-17T13:41:13.534Z",
-      "cropDate": 4, // 4, 5, 6, 7, 0 (other)
+      "cropDate": 4,
       "cropDetails": {
         "scenarioId": "cc98d6c7-7956-489a-b9d1-ce88ef36a8a7",
         "currentProbability": 76,
@@ -172,8 +172,8 @@
     {
       "cropId": "06e8659b-fb17-47f8-abd8-8d915fa2be57",
       "fieldId": "6cebc412-8b46-4b53-8f52-0de63f6f6e2e",
-      "weekVariation": "1", // always % can be negative -1
-      "index": "95", // always %
+      "weekVariation": "1",
+      "index": "95",
       "yield": [
         12,
         12.6
@@ -192,7 +192,7 @@
         "6cebc412-8b46-4b53-8f52-0de63f6f6e2e"
       ],
       "active": true,
-      "severity": "advertencia" // critica | importante | advertencia | informativa | cancelada
+      "severity": "advertencia"
     }
   ],
   "notifications-config": {
@@ -271,8 +271,8 @@
     }
   ],
   "ia": {
-    "status": "processing", // ready
-    "label": "Series climáticas" // Cultivos anteriores | etc
+    "status": "processing",
+    "label": "Series climáticas"
   },
   "profile": {
     "id": "10b8df15-77f2-4e6f-a02d-ec9f72e3f568",
